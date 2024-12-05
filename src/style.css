@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  gap: 1rem;
+  height: calc(100vh - 400px);
+  width: 100%;
+}
+
+.terminal {
+  height: 400px;
+  width: 100%;
+}
+
+textarea {
+  flex: 1;
+  height: 100%;
+  resize: none;
+  background: black;
+  color: white;
+  padding: 0.5rem 1rem;
+}
+
+iframe {
+  flex: 1;
+  height: 100%;
+}
